@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9cb2NMgAILWOLOMO/fuh8us0xwLWtYLallk+B6gBudr44GVG8lsfv+d7Z5pZae6WQEIHJ1OJ2GA0csk8hpoWqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaNegocios\\CapaNegocios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aixam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Aixam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Aixam\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\bin\Debug\net8.0\CapaDeAccesoDatos.deps.json
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\bin\Debug\net8.0\CapaDeAccesoDatos.dll
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\bin\Debug\net8.0\CapaDeAccesoDatos.pdb
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.AssemblyInfo.cs
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.dll
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\refint\CapaDeAccesoDatos.dll
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.pdb
+C:\Users\Aixam\source\repos\tpSQLstock\CapaDeAccesoDatos\obj\Debug\net8.0\ref\CapaDeAccesoDatos.dll
