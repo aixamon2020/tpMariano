@@ -50,16 +50,6 @@ namespace CapaPresentacion
         {
             this.Close();
         }
-
-        private void dgvDetalles_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 
 

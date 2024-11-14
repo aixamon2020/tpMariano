@@ -51,7 +51,6 @@
             dgvDetalles.Name = "dgvDetalles";
             dgvDetalles.Size = new Size(490, 426);
             dgvDetalles.TabIndex = 0;
-            dgvDetalles.CellContentClick += dgvDetalles_CellContentClick;
             // 
             // txtNombre
             // 
@@ -111,7 +110,6 @@
             label1.Size = new Size(54, 15);
             label1.TabIndex = 7;
             label1.Text = "Nombre:";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
