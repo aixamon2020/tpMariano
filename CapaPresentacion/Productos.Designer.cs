@@ -33,7 +33,7 @@
             txtCategoria = new TextBox();
             txtStock = new TextBox();
             txtPrecio = new TextBox();
-            btnGuardar = new Button();
+            btnAñadir = new Button();
             btnActualizar = new Button();
             label1 = new Label();
             label2 = new Label();
@@ -80,16 +80,16 @@
             txtPrecio.Size = new Size(100, 23);
             txtPrecio.TabIndex = 4;
             // 
-            // btnGuardar
+            // btnAñadir
             // 
-            btnGuardar.BackColor = Color.Olive;
-            btnGuardar.Location = new Point(555, 299);
-            btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(93, 25);
-            btnGuardar.TabIndex = 5;
-            btnGuardar.Text = "Guardar";
-            btnGuardar.UseVisualStyleBackColor = false;
-            btnGuardar.Click += btnGuardar_Click;
+            btnAñadir.BackColor = Color.Olive;
+            btnAñadir.Location = new Point(555, 299);
+            btnAñadir.Name = "btnAñadir";
+            btnAñadir.Size = new Size(93, 25);
+            btnAñadir.TabIndex = 5;
+            btnAñadir.Text = "Añadir";
+            btnAñadir.UseVisualStyleBackColor = false;
+            btnAñadir.Click += btnGuardar_Click;
             // 
             // btnActualizar
             // 
@@ -98,7 +98,7 @@
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(93, 25);
             btnActualizar.TabIndex = 6;
-            btnActualizar.Text = "Agregar";
+            btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = false;
             btnActualizar.Click += btnActualizar_Click;
             // 
@@ -158,7 +158,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnActualizar);
-            Controls.Add(btnGuardar);
+            Controls.Add(btnAñadir);
             Controls.Add(txtPrecio);
             Controls.Add(txtStock);
             Controls.Add(txtCategoria);
@@ -180,7 +180,7 @@
         private TextBox txtCategoria;
         private TextBox txtStock;
         private TextBox txtPrecio;
-        private Button btnGuardar;
+        private Button btnAñadir;
         private Button btnActualizar;
         private Label label1;
         private Label label2;

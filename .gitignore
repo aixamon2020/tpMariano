@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/CapaDeAccesoDatos/bin/Debug/net8.0/CapaDeAccesoDatos.dll
+/CapaDeAccesoDatos/bin/Debug/net8.0/CapaDeAccesoDatos.pdb
+/CapaDeAccesoDatos/obj/Debug/net8.0/ref/CapaDeAccesoDatos.dll

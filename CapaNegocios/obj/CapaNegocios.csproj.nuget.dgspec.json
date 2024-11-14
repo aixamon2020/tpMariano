@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaNegocios\\CapaNegocios.csproj": {}
+    "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj": {
+    "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
         "projectName": "CapaDeAccesoDatos",
-        "projectPath": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\Aixam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaDeAccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaDeAccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aixam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Ignacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,21 +71,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaNegocios\\CapaNegocios.csproj": {
+    "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaNegocios\\CapaNegocios.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj",
         "projectName": "CapaNegocios",
-        "projectPath": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaNegocios\\CapaNegocios.csproj",
-        "packagesPath": "C:\\Users\\Aixam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaNegocios\\obj\\",
+        "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj",
+        "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaNegocios\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aixam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Ignacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,14 +97,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj": {
-                "projectPath": "C:\\Users\\Aixam\\source\\repos\\tpSQLstock\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj"
+              "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj"
               }
             }
           }
@@ -130,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

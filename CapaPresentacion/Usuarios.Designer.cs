@@ -81,6 +81,7 @@
             txtid.Name = "txtid";
             txtid.Size = new Size(100, 23);
             txtid.TabIndex = 7;
+            txtid.UseSystemPasswordChar = true;
             // 
             // txtDisplayname
             // 

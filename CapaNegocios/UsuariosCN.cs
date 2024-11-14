@@ -11,7 +11,6 @@ namespace CapaNegocios
     public class UsuariosCN
     {
         UsuariosDAL usuariosDAL = new UsuariosDAL();
-
         public DataTable cargarUsuarios()
         {
             return usuariosDAL.CargarUsuarios();
@@ -20,6 +19,17 @@ namespace CapaNegocios
         {
             usuariosDAL.AltaUsuario(displey_name, user_name, pass);
         }
-        
+        public void ModificarContraseña(int id, string pass)
+        {
+            usuariosDAL.ModificarContraseña(id, pass);
+        }
+        public void EliminarUsuarios(int id)
+        {
+            usuariosDAL.EliminarUsuarios(id);
+        }
+        public bool LoginUser(string user_name, string pass)
+        {
+            return usuariosDAL.Login(user_name, pass);
+        }
     }
 }

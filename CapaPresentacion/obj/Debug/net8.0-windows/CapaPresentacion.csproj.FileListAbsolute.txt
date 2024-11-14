@@ -26,3 +26,32 @@ C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Productos.resources
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.sourcelink.json
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Usuarios.resources
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaPresentacion.exe
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaPresentacion.deps.json
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaPresentacion.runtimeconfig.json
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaPresentacion.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaPresentacion.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaDeAccesoDatos.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaNegocios.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaNegocios.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\bin\Debug\net8.0-windows\CapaDeAccesoDatos.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Principal.resources
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Productos.resources
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Usuarios.resources
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.AssemblyInfo.cs
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.sourcelink.json
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPres.61CA7C38.Up2Date
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\refint\CapaPresentacion.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\ref\CapaPresentacion.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Ventas.resources

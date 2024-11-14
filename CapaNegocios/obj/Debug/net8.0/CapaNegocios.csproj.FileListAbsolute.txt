@@ -13,3 +13,19 @@ C:\Users\Aixam\source\repos\tpSQLstock\CapaNegocios\obj\Debug\net8.0\CapaNegocio
 C:\Users\Aixam\source\repos\tpSQLstock\CapaNegocios\obj\Debug\net8.0\refint\CapaNegocios.dll
 C:\Users\Aixam\source\repos\tpSQLstock\CapaNegocios\obj\Debug\net8.0\CapaNegocios.pdb
 C:\Users\Aixam\source\repos\tpSQLstock\CapaNegocios\obj\Debug\net8.0\ref\CapaNegocios.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaNegocios.deps.json
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaNegocios.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaNegocios.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaDeAccesoDatos.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaDeAccesoDatos.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.sourcelink.json
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNego.1D246B3C.Up2Date
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\refint\CapaNegocios.dll
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.pdb
+C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\ref\CapaNegocios.dll

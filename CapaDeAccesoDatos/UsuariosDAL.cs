@@ -13,10 +13,8 @@ namespace CapaDeAccesoDatos
     public class UsuariosDAL
     {
         private Conexion conexion = Conexion.getInstancia();
-
-
         public DataTable CargarUsuarios() { 
-        using (NpgsqlConnection conn = conexion.CrearConexion())
+            using (NpgsqlConnection conn = conexion.CrearConexion())
             {
                 DataTable table = new DataTable();
                 try
@@ -75,24 +73,15 @@ namespace CapaDeAccesoDatos
                     }
                 }
             }
-            
-            
         }
-
-        public void ModificarContraseña(string displey_name, string user_name, string pass)
+        public void ModificarContraseña(int id, string pass)
         {
             using (NpgsqlConnection conn = conexion.CrearConexion())
             {
                 try
                 {
-
-
-
-                    using (NpgsqlCommand cmd = new NpgsqlCommand("UPDATE users SET displey_name=@displey_name,user_id=@user_id, pass=@pass)", conn))
+                    using (NpgsqlCommand cmd = new NpgsqlCommand("UPDATE users SET pass=@pass where id=@id", conn))
                     {
-
-                        cmd.Parameters.AddWithValue("@displey_name", displey_name);
-                        cmd.Parameters.AddWithValue("@user_name", user_name);
                         cmd.Parameters.AddWithValue("@pass", pass);
 
                         cmd.ExecuteNonQuery();
@@ -101,7 +90,6 @@ namespace CapaDeAccesoDatos
                 catch (Exception ex)
                 {
                     throw new Exception("Error al cargar el usuario", ex);
-
                 }
                 finally
                 {
@@ -112,7 +100,67 @@ namespace CapaDeAccesoDatos
                     }
                 }
             }  
-            
+        }
+        public void EliminarUsuarios(int id)
+        {
+            using (NpgsqlConnection conn = conexion.CrearConexion())
+            {
+                try
+                {
+                    conn.Open();
+                    using (NpgsqlCommand cmd = new NpgsqlCommand("DELETE FROM users WHERE id=@id)", conn))
+                    {
+                        cmd.Parameters.AddWithValue("@id", id);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al eliminar usuario", ex);
+                }
+                finally
+                {
+                    if (conn.State == ConnectionState.Open)
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
+        public bool Login(string user_name, string pass)
+        {
+            using (var conn = new Conexion().CrearConexion())
+            {
+                try
+                {
+                    conn.Open();
+                    using (var command = new NpgsqlCommand())
+                    {
+                        command.Connection = conn;
+                        command.CommandText = "select * from users where nombre_usuario=@user and contraseña=@pass";
+                        command.Parameters.AddWithValue("@user", user_name);
+                        command.Parameters.AddWithValue("@pass", pass);
+                        command.CommandType = CommandType.Text;
+
+                        int userCont = Convert.ToInt32(command.ExecuteScalar());
+                        // Autenticación exitosa
+                        if (userCont == 1)
+                        {
+                            return true;
+                        }
+                        else
+                            //Autenticación fallida
+                            return false;
+                    }
+                }
+                finally
+                {
+                    if (conn.State == ConnectionState.Open)
+                    {
+                        conn.Close();
+                    }
+                }
+            }
         }
     }
 }
