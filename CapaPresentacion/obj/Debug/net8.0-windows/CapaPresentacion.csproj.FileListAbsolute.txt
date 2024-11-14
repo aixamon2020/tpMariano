@@ -55,3 +55,4 @@ C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-w
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.genruntimeconfig.cache
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\ref\CapaPresentacion.dll
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Ventas.resources
+C:\Users\Juan Ignacio\source\repos\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Properties.Resources.resources

@@ -51,6 +51,7 @@
             dgvDetalles.Name = "dgvDetalles";
             dgvDetalles.Size = new Size(490, 426);
             dgvDetalles.TabIndex = 0;
+            dgvDetalles.CellClick += dgvDetalles_CellClick;
             // 
             // txtNombre
             // 
@@ -94,6 +95,7 @@
             // btnActualizar
             // 
             btnActualizar.BackColor = Color.Olive;
+            btnActualizar.Enabled = false;
             btnActualizar.Location = new Point(675, 299);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(93, 25);

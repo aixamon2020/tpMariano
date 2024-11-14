@@ -11,7 +11,6 @@ namespace CapaDeAccesoDatos
     public class ProductosDAL
     {
         private Conexion conexion = Conexion.getInstancia();
-
         public DataTable CargarProductos()
         {
             using(NpgsqlConnection conn = conexion.CrearConexion())
@@ -42,7 +41,6 @@ namespace CapaDeAccesoDatos
                 }
             }
         }
-
         public void InsertarProductos(string Nombre, string categoria, int stock, decimal precio)
         {
             using (NpgsqlConnection conn = conexion.CrearConexion())
@@ -73,20 +71,20 @@ namespace CapaDeAccesoDatos
                 }
             }
         }
-            public void ModificarProductos(int Codigo, string Nombre, string categoria, int stock, decimal precio)
+        public void ModificarProductos(int Codigo, string Nombre, string categoria, int stock, decimal precio)
             {
                 using (NpgsqlConnection conn = conexion.CrearConexion())
                 {
                     try
                     {
                         conn.Open();
-                        using (NpgsqlCommand command = new NpgsqlCommand("UPDATE Productos SET Nombre=@nombre, Categoria=@categoria Stock=@stocck, Precio=@precio WHERE Codigo=@codigo ", conn))
+                        using (NpgsqlCommand command = new NpgsqlCommand("UPDATE Productos SET nombre=@nombre, categoria=@categoria, stock=@stock, precio=@precio WHERE codigo=@codigo", conn))
                         {
                             command.Parameters.AddWithValue("@codigo", Codigo);
                             command.Parameters.AddWithValue("@nombre", Nombre);
-                            command.Parameters.AddWithValue("@Categoria", categoria);
-                            command.Parameters.AddWithValue("@Srock", stock);
-                            command.Parameters.AddWithValue("@Precio", precio);
+                            command.Parameters.AddWithValue("@categoria", categoria);
+                            command.Parameters.AddWithValue("@stock", stock);
+                            command.Parameters.AddWithValue("@precio", precio);
 
                             command.ExecuteNonQuery();
                         }
@@ -104,7 +102,6 @@ namespace CapaDeAccesoDatos
                     }
                 }
             }
-
         public void EliminarProductos(int Codigo)
         {
             using (NpgsqlConnection conn = conexion.CrearConexion())
@@ -133,10 +130,5 @@ namespace CapaDeAccesoDatos
                 }
             }
         }
-
-        
-                
-            
-        
     }
 }

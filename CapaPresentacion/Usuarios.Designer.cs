@@ -32,21 +32,22 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            txtid = new TextBox();
+            txtPass = new TextBox();
             txtDisplayname = new TextBox();
             txtUsername = new TextBox();
-            btnGuardar = new Button();
-            btnAgregar = new Button();
+            btnAñadir = new Button();
+            btnActualizar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).BeginInit();
             SuspendLayout();
             // 
             // dgvUsuarios
             // 
             dgvUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvUsuarios.Location = new Point(2, -1);
+            dgvUsuarios.Location = new Point(12, 12);
             dgvUsuarios.Name = "dgvUsuarios";
-            dgvUsuarios.Size = new Size(341, 447);
+            dgvUsuarios.Size = new Size(444, 426);
             dgvUsuarios.TabIndex = 0;
+            dgvUsuarios.CellClick += dgvUsuarios_CellClick;
             // 
             // label1
             // 
@@ -75,13 +76,13 @@
             label3.TabIndex = 3;
             label3.Text = "User_name";
             // 
-            // txtid
+            // txtPass
             // 
-            txtid.Location = new Point(614, 157);
-            txtid.Name = "txtid";
-            txtid.Size = new Size(100, 23);
-            txtid.TabIndex = 7;
-            txtid.UseSystemPasswordChar = true;
+            txtPass.Location = new Point(614, 157);
+            txtPass.Name = "txtPass";
+            txtPass.Size = new Size(100, 23);
+            txtPass.TabIndex = 7;
+            txtPass.UseSystemPasswordChar = true;
             // 
             // txtDisplayname
             // 
@@ -97,34 +98,37 @@
             txtUsername.Size = new Size(100, 23);
             txtUsername.TabIndex = 9;
             // 
-            // btnGuardar
+            // btnAñadir
             // 
-            btnGuardar.Location = new Point(480, 333);
-            btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(75, 23);
-            btnGuardar.TabIndex = 10;
-            btnGuardar.Text = "Guardar";
-            btnGuardar.UseVisualStyleBackColor = true;
+            btnAñadir.Location = new Point(472, 333);
+            btnAñadir.Name = "btnAñadir";
+            btnAñadir.Size = new Size(75, 23);
+            btnAñadir.TabIndex = 10;
+            btnAñadir.Text = "Añadir";
+            btnAñadir.UseVisualStyleBackColor = true;
+            btnAñadir.Click += btnAñadir_Click;
             // 
-            // btnAgregar
+            // btnActualizar
             // 
-            btnAgregar.Location = new Point(614, 333);
-            btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(75, 23);
-            btnAgregar.TabIndex = 11;
-            btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
+            btnActualizar.Enabled = false;
+            btnActualizar.Location = new Point(639, 333);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.TabIndex = 11;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click;
             // 
             // Usuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnAgregar);
-            Controls.Add(btnGuardar);
+            Controls.Add(btnActualizar);
+            Controls.Add(btnAñadir);
             Controls.Add(txtUsername);
             Controls.Add(txtDisplayname);
-            Controls.Add(txtid);
+            Controls.Add(txtPass);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -132,6 +136,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "Usuarios";
             Text = "Usuarios";
+            Load += Usuarios_Load;
             ((System.ComponentModel.ISupportInitialize)dgvUsuarios).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -143,10 +148,10 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox txtid;
+        private TextBox txtPass;
         private TextBox txtDisplayname;
         private TextBox txtUsername;
-        private Button btnGuardar;
-        private Button btnAgregar;
+        private Button btnAñadir;
+        private Button btnActualizar;
     }
 }

@@ -11,7 +11,7 @@
         "projectName": "CapaDeAccesoDatos",
         "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
         "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaDeAccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -82,7 +82,7 @@
         "projectName": "CapaNegocios",
         "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj",
         "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaNegocios\\obj\\",
+        "outputPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -151,7 +151,7 @@
         "projectName": "CapaPresentacion",
         "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaPresentacion\\CapaPresentacion.csproj",
         "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaPresentacion\\obj\\",
+        "outputPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaPresentacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

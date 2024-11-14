@@ -20,7 +20,7 @@ namespace CapaDeAccesoDatos
                 try
                 {
                     conn.Open();
-                    using(NpgsqlCommand cmd = new NpgsqlCommand("SELECT * FORM users", conn))
+                    using(NpgsqlCommand cmd = new NpgsqlCommand("SELECT * FROM users", conn))
                     {
                         using(NpgsqlDataReader dataReader = cmd.ExecuteReader())
                         {
@@ -28,11 +28,10 @@ namespace CapaDeAccesoDatos
                         }
                     }
                     return table;
-
                 }
                 catch(Exception ex)
                 {
-                    throw new Exception("error al cargar los usuarios", ex);
+                    throw new Exception("Error al cargar los usuarios", ex);
                 }
                 finally
                 {
@@ -43,17 +42,17 @@ namespace CapaDeAccesoDatos
                 }
             }
         }
-        public void AltaUsuario(string displey_name, string user_name, string pass)
+        public void AltaUsuario(string display_name, string user_name, string pass)
         {
             using (NpgsqlConnection conn = conexion.CrearConexion())
             {
                 try
                 {
                     conn.Open();
-                    using (NpgsqlCommand cmd = new NpgsqlCommand("INSERT INTO users (displey_name, user_name, pass) VALUES(@displey_name, @user_name, @pass)", conn))
+                    using (NpgsqlCommand cmd = new NpgsqlCommand("INSERT INTO users (display_name, user_name, pass) VALUES(@display_name, @user_name, @pass)", conn))
                     {
 
-                        cmd.Parameters.AddWithValue("@displey_name", displey_name);
+                        cmd.Parameters.AddWithValue("@display_name", display_name);
                         cmd.Parameters.AddWithValue("@user_name", user_name);
                         cmd.Parameters.AddWithValue("@pass", pass);
 
@@ -89,7 +88,7 @@ namespace CapaDeAccesoDatos
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception("Error al cargar el usuario", ex);
+                    throw new Exception("Error al cambiar la contraseña", ex);
                 }
                 finally
                 {
