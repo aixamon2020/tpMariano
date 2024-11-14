@@ -11,7 +11,6 @@ C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\bin\Debug\net8.0-windows
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\bin\Debug\net8.0-windows\CapaNegocios.pdb
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\bin\Debug\net8.0-windows\CapaDeAccesoDatos.pdb
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
-C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Form1.resources
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.csproj.GenerateResource.cache
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
@@ -23,3 +22,7 @@ C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.pdb
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.genruntimeconfig.cache
 C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\ref\CapaPresentacion.dll
+C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Principal.resources
+C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Productos.resources
+C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.sourcelink.json
+C:\Users\Aixam\source\repos\tpSQLstock\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Usuarios.resources

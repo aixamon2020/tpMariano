@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentacion
 {
-    partial class Form1
+    partial class Productos
     {
         /// <summary>
         ///  Required designer variable.
@@ -35,16 +35,21 @@
             txtPrecio = new TextBox();
             btnGuardar = new Button();
             btnActualizar = new Button();
-            btnSalir = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvDetalles).BeginInit();
             SuspendLayout();
             // 
             // dgvDetalles
             // 
+            dgvDetalles.BackgroundColor = Color.Beige;
             dgvDetalles.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDetalles.Location = new Point(12, 31);
+            dgvDetalles.Location = new Point(12, 12);
             dgvDetalles.Name = "dgvDetalles";
-            dgvDetalles.Size = new Size(490, 232);
+            dgvDetalles.Size = new Size(490, 426);
             dgvDetalles.TabIndex = 0;
             dgvDetalles.CellContentClick += dgvDetalles_CellContentClick;
             // 
@@ -57,61 +62,103 @@
             // 
             // txtCategoria
             // 
-            txtCategoria.Location = new Point(612, 78);
+            txtCategoria.Location = new Point(612, 75);
             txtCategoria.Name = "txtCategoria";
             txtCategoria.Size = new Size(100, 23);
             txtCategoria.TabIndex = 2;
             // 
             // txtStock
             // 
-            txtStock.Location = new Point(610, 134);
+            txtStock.Location = new Point(612, 134);
             txtStock.Name = "txtStock";
             txtStock.Size = new Size(100, 23);
             txtStock.TabIndex = 3;
             // 
             // txtPrecio
             // 
-            txtPrecio.Location = new Point(612, 186);
+            txtPrecio.Location = new Point(612, 181);
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(100, 23);
             txtPrecio.TabIndex = 4;
             // 
             // btnGuardar
             // 
+            btnGuardar.BackColor = Color.Olive;
             btnGuardar.Location = new Point(555, 299);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(93, 25);
             btnGuardar.TabIndex = 5;
-            btnGuardar.Text = "GUARDAR";
-            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Text = "Guardar";
+            btnGuardar.UseVisualStyleBackColor = false;
             btnGuardar.Click += btnGuardar_Click;
             // 
             // btnActualizar
             // 
+            btnActualizar.BackColor = Color.Olive;
             btnActualizar.Location = new Point(675, 299);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(93, 25);
             btnActualizar.TabIndex = 6;
-            btnActualizar.Text = "ACTUALIZAR";
-            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Text = "Agregar";
+            btnActualizar.UseVisualStyleBackColor = false;
             btnActualizar.Click += btnActualizar_Click;
             // 
-            // btnSalir
+            // label1
             // 
-            btnSalir.Location = new Point(684, 368);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(75, 23);
-            btnSalir.TabIndex = 7;
-            btnSalir.Text = "SALIR";
-            btnSalir.UseVisualStyleBackColor = true;
-            btnSalir.Click += btnSalir_Click;
+            label1.AutoSize = true;
+            label1.Location = new Point(544, 39);
+            label1.Name = "label1";
+            label1.Size = new Size(54, 15);
+            label1.TabIndex = 7;
+            label1.Text = "Nombre:";
+            label1.Click += label1_Click;
             // 
-            // Form1
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(544, 78);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 15);
+            label2.TabIndex = 8;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(544, 142);
+            label3.Name = "label3";
+            label3.Size = new Size(39, 15);
+            label3.TabIndex = 9;
+            label3.Text = "Stock:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(544, 189);
+            label4.Name = "label4";
+            label4.Size = new Size(43, 15);
+            label4.TabIndex = 10;
+            label4.Text = "Precio:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(540, 83);
+            label5.Name = "label5";
+            label5.Size = new Size(66, 15);
+            label5.TabIndex = 11;
+            label5.Text = "Categorias:";
+            // 
+            // Productos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Beige;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnSalir);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(btnActualizar);
             Controls.Add(btnGuardar);
             Controls.Add(txtPrecio);
@@ -119,8 +166,9 @@
             Controls.Add(txtCategoria);
             Controls.Add(txtNombre);
             Controls.Add(dgvDetalles);
-            Name = "Form1";
-            Text = "Form1";
+            ForeColor = Color.Black;
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Productos";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDetalles).EndInit();
             ResumeLayout(false);
@@ -136,7 +184,10 @@
         private TextBox txtPrecio;
         private Button btnGuardar;
         private Button btnActualizar;
-        private Button btnSalir;
-   
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }

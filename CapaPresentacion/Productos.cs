@@ -3,10 +3,10 @@ using CapaNegocios;
 using System.Data;
 namespace CapaPresentacion
 {
-    public partial class Form1 : Form
+    public partial class Productos : Form
     {
         ProductosCN productosCN = new ProductosCN();
-        public Form1()
+        public Productos()
         {
             InitializeComponent();
         }
@@ -52,6 +52,11 @@ namespace CapaPresentacion
         }
 
         private void dgvDetalles_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
