@@ -79,9 +79,11 @@ namespace CapaDeAccesoDatos
             {
                 try
                 {
+                    conn.Open();
                     using (NpgsqlCommand cmd = new NpgsqlCommand("UPDATE users SET pass=@pass where id=@id", conn))
                     {
                         cmd.Parameters.AddWithValue("@pass", pass);
+                        cmd.Parameters.AddWithValue("@id", id);
 
                         cmd.ExecuteNonQuery();
                     }

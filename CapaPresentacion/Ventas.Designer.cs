@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            dgvVentas = new DataGridView();
             btnVenta = new Button();
             btnAñadir = new Button();
             cmbProductos = new ComboBox();
@@ -44,16 +44,16 @@
             textBox3 = new TextBox();
             lblStock = new Label();
             lblPrecio = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvVentas).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dgvVentas
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 66);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(469, 372);
-            dataGridView1.TabIndex = 0;
+            dgvVentas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVentas.Location = new Point(12, 66);
+            dgvVentas.Name = "dgvVentas";
+            dgvVentas.Size = new Size(469, 372);
+            dgvVentas.TabIndex = 0;
             // 
             // btnVenta
             // 
@@ -203,18 +203,19 @@
             Controls.Add(cmbProductos);
             Controls.Add(btnAñadir);
             Controls.Add(btnVenta);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvVentas);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Ventas";
             Text = "Ventas";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += Ventas_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvVentas).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dgvVentas;
         private Button btnVenta;
         private Button btnAñadir;
         private ComboBox cmbProductos;

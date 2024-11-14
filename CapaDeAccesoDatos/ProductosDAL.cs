@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Npgsql;
+using CapaEntidades;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CapaDeAccesoDatos
 {
@@ -35,6 +38,48 @@ namespace CapaDeAccesoDatos
                 finally
                 {
                     if(conn.State == ConnectionState.Open)
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
+        public List<Producto> ObtenerProductos()
+        {
+            List<Producto> productos = new List<Producto>();
+            using (NpgsqlConnection conn = conexion.CrearConexion())
+            {
+                try
+                {
+                    conn.Open();
+                    using (NpgsqlCommand cmd = new NpgsqlCommand("SELECT * from productos", conn))
+                    {
+                        using (NpgsqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                Producto producto = new Producto
+                                {
+                                    Codigo = reader.GetInt32(0),
+                                    Nombre = reader.GetString(1),
+                                    Categoria = reader.GetString(2),
+                                    Stock = reader.GetInt32(3),
+                                    Precio = reader.GetDecimal(4)
+                                };
+                                productos.Add(producto);
+                            }
+                        }
+
+                    }
+                    return productos;
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                finally
+                {
+                    if (conn.State == ConnectionState.Open)
                     {
                         conn.Close();
                     }

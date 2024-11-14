@@ -57,6 +57,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CapaEntidades": "1.0.0",
           "Npgsql": "8.0.5"
         },
         "compile": {
@@ -66,11 +67,22 @@
           "bin/placeholder/CapaDeAccesoDatos.dll": {}
         }
       },
+      "CapaEntidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CapaEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidades.dll": {}
+        }
+      },
       "CapaNegocios/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CapaDeAccesoDatos": "1.0.0"
+          "CapaDeAccesoDatos": "1.0.0",
+          "CapaEntidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CapaNegocios.dll": {}
@@ -215,6 +227,11 @@
       "path": "../CapaDeAccesoDatos/CapaDeAccesoDatos.csproj",
       "msbuildProject": "../CapaDeAccesoDatos/CapaDeAccesoDatos.csproj"
     },
+    "CapaEntidades/1.0.0": {
+      "type": "project",
+      "path": "../CapaEntidades/CapaEntidades.csproj",
+      "msbuildProject": "../CapaEntidades/CapaEntidades.csproj"
+    },
     "CapaNegocios/1.0.0": {
       "type": "project",
       "path": "../CapaNegocios/CapaNegocios.csproj",
@@ -223,6 +240,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "CapaEntidades >= 1.0.0",
       "CapaNegocios >= 1.0.0"
     ]
   },
@@ -237,7 +255,7 @@
       "projectName": "CapaPresentacion",
       "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaPresentacion\\CapaPresentacion.csproj",
       "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaPresentacion\\obj\\",
+      "outputPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaPresentacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -259,6 +277,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaEntidades\\CapaEntidades.csproj"
+            },
             "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj": {
               "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj"
             }

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CapaDeAccesoDatos\CapaDeAccesoDatos.csproj" />
+    <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj" />
   </ItemGroup>
 
 </Project>

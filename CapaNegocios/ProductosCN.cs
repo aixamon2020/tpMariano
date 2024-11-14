@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CapaDeAccesoDatos;
+using CapaEntidades;
 
 namespace CapaNegocios
 {
@@ -15,6 +16,10 @@ namespace CapaNegocios
         public DataTable CargarProductos()
         {
             return productosDAL.CargarProductos();
+        }
+        public List<Producto> ObtenerProductos()
+        {
+            return productosDAL.ObtenerProductos();
         }
         public void InsertarProducto(string nombre, string categoria, string stock, string precio)
         {

@@ -23,3 +23,6 @@ C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaDeAccesoDatos\obj\Debug\net8.0\
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaDeAccesoDatos\obj\Debug\net8.0\refint\CapaDeAccesoDatos.dll
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAccesoDatos.pdb
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaDeAccesoDatos\obj\Debug\net8.0\ref\CapaDeAccesoDatos.dll
+C:\Users\Juan Ignacio\source\repos\tpMariano\CapaDeAccesoDatos\bin\Debug\net8.0\CapaEntidades.dll
+C:\Users\Juan Ignacio\source\repos\tpMariano\CapaDeAccesoDatos\bin\Debug\net8.0\CapaEntidades.pdb
+C:\Users\Juan Ignacio\source\repos\tpMariano\CapaDeAccesoDatos\obj\Debug\net8.0\CapaDeAc.329B62F2.Up2Date

@@ -57,6 +57,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CapaEntidades": "1.0.0",
           "Npgsql": "8.0.5"
         },
         "compile": {
@@ -64,6 +65,16 @@
         },
         "runtime": {
           "bin/placeholder/CapaDeAccesoDatos.dll": {}
+        }
+      },
+      "CapaEntidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CapaEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidades.dll": {}
         }
       }
     }
@@ -201,11 +212,17 @@
       "type": "project",
       "path": "../CapaDeAccesoDatos/CapaDeAccesoDatos.csproj",
       "msbuildProject": "../CapaDeAccesoDatos/CapaDeAccesoDatos.csproj"
+    },
+    "CapaEntidades/1.0.0": {
+      "type": "project",
+      "path": "../CapaEntidades/CapaEntidades.csproj",
+      "msbuildProject": "../CapaEntidades/CapaEntidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CapaDeAccesoDatos >= 1.0.0"
+      "CapaDeAccesoDatos >= 1.0.0",
+      "CapaEntidades >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -219,7 +236,7 @@
       "projectName": "CapaNegocios",
       "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\CapaNegocios.csproj",
       "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Ignacio\\Source\\Repos\\tpMariano\\CapaNegocios\\obj\\",
+      "outputPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaNegocios\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -243,6 +260,9 @@
           "projectReferences": {
             "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj": {
               "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj"
+            },
+            "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }

@@ -29,3 +29,5 @@ C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaN
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\refint\CapaNegocios.dll
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.pdb
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\ref\CapaNegocios.dll
+C:\Users\Juan Ignacio\source\repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaEntidades.dll
+C:\Users\Juan Ignacio\source\repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaEntidades.pdb
