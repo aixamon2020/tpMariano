@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LAaa7nrl8Vo=",
+  "dgSpecHash": "5T5uxA1uBPQturRt70Ki76R4YIm8XkwcZOQ5wLKI7GrtMtXeGynG4GG4KaR3jJ5H19XQ/vfG6zYOotO+IEpfPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
+  "projectFilePath": "C:\\Users\\Aixam\\Source\\Repos\\aixamon2020\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Juan Ignacio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Juan Ignacio\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Juan Ignacio\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+    "C:\\Users\\Aixam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Aixam\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Aixam\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }

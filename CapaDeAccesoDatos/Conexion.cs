@@ -20,10 +20,10 @@ namespace CapaDeAccesoDatos
             this.Servidor = "localhost";
             this.Puerto = "5432";
             this.Usuario = "postgres";
-            //this.Password = "1234";
-            //this.BaseDeDatos = "postgres";
-            this.Password = "432156";
-            this.BaseDeDatos = "postgres2";
+            this.Password = "1234";
+            this.BaseDeDatos = "postgres";
+            //this.Password = "432156";
+            //this.BaseDeDatos = "postgres2";
 
         }
         public NpgsqlConnection CrearConexion()

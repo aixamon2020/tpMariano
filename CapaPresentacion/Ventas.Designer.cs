@@ -39,17 +39,20 @@
             label5 = new Label();
             lblMonto = new Label();
             label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtCantidad = new TextBox();
             lblStock = new Label();
             lblPrecio = new Label();
+            lblNombre = new Label();
+            lblCategoria = new Label();
+            txtCliente = new TextBox();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvVentas).BeginInit();
             SuspendLayout();
             // 
             // dgvVentas
             // 
             dgvVentas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVentas.GridColor = Color.Beige;
             dgvVentas.Location = new Point(12, 66);
             dgvVentas.Name = "dgvVentas";
             dgvVentas.Size = new Size(469, 372);
@@ -63,6 +66,7 @@
             btnVenta.TabIndex = 1;
             btnVenta.Text = "Realizar venta";
             btnVenta.UseVisualStyleBackColor = true;
+            btnVenta.Click += btnVenta_Click;
             // 
             // btnAñadir
             // 
@@ -72,14 +76,17 @@
             btnAñadir.TabIndex = 2;
             btnAñadir.Text = "Añadir";
             btnAñadir.UseVisualStyleBackColor = true;
+            btnAñadir.Click += btnAñadir_Click;
             // 
             // cmbProductos
             // 
+            cmbProductos.BackColor = Color.Olive;
             cmbProductos.FormattingEnabled = true;
             cmbProductos.Location = new Point(12, 12);
             cmbProductos.Name = "cmbProductos";
             cmbProductos.Size = new Size(469, 23);
             cmbProductos.TabIndex = 3;
+            cmbProductos.SelectedIndexChanged += cmbProductos_SelectedIndexChanged;
             // 
             // label1
             // 
@@ -144,26 +151,12 @@
             label6.TabIndex = 4;
             label6.Text = "Cantidad:";
             // 
-            // textBox1
+            // txtCantidad
             // 
-            textBox1.Location = new Point(604, 67);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(604, 107);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 5;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(604, 221);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 5;
+            txtCantidad.Location = new Point(604, 221);
+            txtCantidad.Name = "txtCantidad";
+            txtCantidad.Size = new Size(100, 23);
+            txtCantidad.TabIndex = 5;
             // 
             // lblStock
             // 
@@ -183,16 +176,53 @@
             lblPrecio.TabIndex = 6;
             lblPrecio.Text = "-";
             // 
+            // lblNombre
+            // 
+            lblNombre.AutoSize = true;
+            lblNombre.Location = new Point(604, 70);
+            lblNombre.Name = "lblNombre";
+            lblNombre.Size = new Size(12, 15);
+            lblNombre.TabIndex = 7;
+            lblNombre.Text = "-";
+            // 
+            // lblCategoria
+            // 
+            lblCategoria.AutoSize = true;
+            lblCategoria.Location = new Point(612, 107);
+            lblCategoria.Name = "lblCategoria";
+            lblCategoria.Size = new Size(12, 15);
+            lblCategoria.TabIndex = 8;
+            lblCategoria.Text = "-";
+            // 
+            // txtCliente
+            // 
+            txtCliente.Location = new Point(604, 22);
+            txtCliente.Name = "txtCliente";
+            txtCliente.Size = new Size(100, 23);
+            txtCliente.TabIndex = 9;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(529, 28);
+            label7.Name = "label7";
+            label7.Size = new Size(47, 15);
+            label7.TabIndex = 10;
+            label7.Text = "Cliente:";
+            // 
             // Ventas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Beige;
             ClientSize = new Size(800, 450);
+            Controls.Add(label7);
+            Controls.Add(txtCliente);
+            Controls.Add(lblCategoria);
+            Controls.Add(lblNombre);
             Controls.Add(lblPrecio);
             Controls.Add(lblStock);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtCantidad);
             Controls.Add(lblMonto);
             Controls.Add(label5);
             Controls.Add(label6);
@@ -226,10 +256,12 @@
         private Label label5;
         private Label lblMonto;
         private Label label6;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtCantidad;
         private Label lblStock;
         private Label lblPrecio;
+        private Label lblNombre;
+        private Label lblCategoria;
+        private TextBox txtCliente;
+        private Label label7;
     }
 }

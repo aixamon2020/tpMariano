@@ -207,24 +207,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Juan Ignacio\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Aixam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
+      "projectUniqueName": "C:\\Users\\Aixam\\Source\\Repos\\aixamon2020\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
       "projectName": "CapaDeAccesoDatos",
-      "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
-      "packagesPath": "C:\\Users\\Juan Ignacio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaDeAccesoDatos\\obj\\",
+      "projectPath": "C:\\Users\\Aixam\\Source\\Repos\\aixamon2020\\tpMariano\\CapaDeAccesoDatos\\CapaDeAccesoDatos.csproj",
+      "packagesPath": "C:\\Users\\Aixam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aixam\\Source\\Repos\\aixamon2020\\tpMariano\\CapaDeAccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Juan Ignacio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Aixam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -232,15 +227,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\Juan Ignacio\\source\\repos\\tpMariano\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\Aixam\\Source\\Repos\\aixamon2020\\tpMariano\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\Aixam\\Source\\Repos\\aixamon2020\\tpMariano\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }
@@ -281,7 +275,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

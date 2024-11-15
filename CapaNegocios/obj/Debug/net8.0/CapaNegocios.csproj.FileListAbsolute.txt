@@ -31,3 +31,21 @@ C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaN
 C:\Users\Juan Ignacio\Source\Repos\tpMariano\CapaNegocios\obj\Debug\net8.0\ref\CapaNegocios.dll
 C:\Users\Juan Ignacio\source\repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaEntidades.dll
 C:\Users\Juan Ignacio\source\repos\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaEntidades.pdb
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaNegocios.deps.json
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaNegocios.dll
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaNegocios.pdb
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaDeAccesoDatos.dll
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaEntidades.dll
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaDeAccesoDatos.pdb
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\bin\Debug\net8.0\CapaEntidades.pdb
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.AssemblyInfoInputs.cache
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.AssemblyInfo.cs
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.sourcelink.json
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNego.1D246B3C.Up2Date
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.dll
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\refint\CapaNegocios.dll
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\CapaNegocios.pdb
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaNegocios\obj\Debug\net8.0\ref\CapaNegocios.dll

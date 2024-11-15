@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Juan Ignacio\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Juan Ignacio\\.nuget\\packages",
-      "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\Aixam\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Aixam\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
