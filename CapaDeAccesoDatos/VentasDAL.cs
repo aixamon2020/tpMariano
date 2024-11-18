@@ -9,17 +9,10 @@ using CapaEntidades;
 
 namespace CapaDeAccesoDatos
 {
-    public class DetalleVenta
-    {
-        public int id_detalle { get; set; }
-        public int id_venta { get; set; }
-        public int id_producto { get; set; }
-        public int Cantidad { get; set; }
-    }
     public class VentasDAL
     {
         private Conexion conn = Conexion.getInstancia();
-        public void RealizarVenta(string cliente, decimal monto, List<Detalle_Venta> detalles)
+        public void RealizarVenta(DateTime fecha, string cliente, decimal monto, List<Detalle_Venta> detalles)
         {
             int codigo_venta = 0;
             using (NpgsqlConnection connection = conn.CrearConexion())
@@ -29,9 +22,9 @@ namespace CapaDeAccesoDatos
                     connection.Open();
                     using (var transaction = connection.BeginTransaction())
                     {
-                        using (var command = new NpgsqlCommand("INSERT INTO Ventas (cliente, monto) VALUES ( @cliente, @monto) RETURNING id_venta", connection, transaction))
+                        using (var command = new NpgsqlCommand("INSERT INTO Ventas (fecha, cliente, monto) VALUES (@fecha, @cliente, @monto) RETURNING id_venta", connection, transaction))
                         {
-                            
+                            command.Parameters.AddWithValue("@fecha", fecha);
                             command.Parameters.AddWithValue("@cliente", cliente);
                             command.Parameters.AddWithValue("@monto", monto);
 
@@ -39,7 +32,7 @@ namespace CapaDeAccesoDatos
                         }
                         foreach (var detalle in detalles)
                         {
-                            using (var detalleCommand = new NpgsqlCommand("INSERT INTO Detalle_ventas (id_producto, id_venta, cantidad, total_linea) VALUES (@id_producto, @id_venta, @cantidad; @total_linea)", connection, transaction))
+                            using (var detalleCommand = new NpgsqlCommand("INSERT INTO Detalle_ventas (id_producto, id_venta, cantidad, total_linea) VALUES (@id_producto, @id_venta, @cantidad, @total_linea)", connection, transaction))
                             {
                                 detalleCommand.Parameters.AddWithValue("@id_producto", detalle.id_producto);
                                 detalleCommand.Parameters.AddWithValue("@id_venta", codigo_venta);

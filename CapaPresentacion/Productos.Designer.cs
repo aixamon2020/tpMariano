@@ -45,16 +45,19 @@
             // 
             // dgvDetalles
             // 
+            dgvDetalles.AllowUserToAddRows = false;
             dgvDetalles.BackgroundColor = Color.Beige;
             dgvDetalles.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDetalles.Location = new Point(12, 12);
             dgvDetalles.Name = "dgvDetalles";
+            dgvDetalles.RowHeadersVisible = false;
             dgvDetalles.Size = new Size(490, 426);
             dgvDetalles.TabIndex = 0;
             dgvDetalles.CellClick += dgvDetalles_CellClick;
             // 
             // txtNombre
             // 
+            txtNombre.BackColor = Color.Ivory;
             txtNombre.Location = new Point(610, 31);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(100, 23);
@@ -62,6 +65,7 @@
             // 
             // txtCategoria
             // 
+            txtCategoria.BackColor = Color.Ivory;
             txtCategoria.Location = new Point(612, 75);
             txtCategoria.Name = "txtCategoria";
             txtCategoria.Size = new Size(100, 23);
@@ -69,6 +73,7 @@
             // 
             // txtStock
             // 
+            txtStock.BackColor = Color.Ivory;
             txtStock.Location = new Point(612, 134);
             txtStock.Name = "txtStock";
             txtStock.Size = new Size(100, 23);
@@ -76,6 +81,7 @@
             // 
             // txtPrecio
             // 
+            txtPrecio.BackColor = Color.Ivory;
             txtPrecio.Location = new Point(612, 181);
             txtPrecio.Name = "txtPrecio";
             txtPrecio.Size = new Size(100, 23);
@@ -83,7 +89,8 @@
             // 
             // btnAñadir
             // 
-            btnAñadir.BackColor = Color.Olive;
+            btnAñadir.BackColor = Color.LemonChiffon;
+            btnAñadir.FlatStyle = FlatStyle.Flat;
             btnAñadir.Location = new Point(555, 299);
             btnAñadir.Name = "btnAñadir";
             btnAñadir.Size = new Size(93, 25);
@@ -94,8 +101,9 @@
             // 
             // btnActualizar
             // 
-            btnActualizar.BackColor = Color.Olive;
+            btnActualizar.BackColor = Color.LemonChiffon;
             btnActualizar.Enabled = false;
+            btnActualizar.FlatStyle = FlatStyle.Flat;
             btnActualizar.Location = new Point(675, 299);
             btnActualizar.Name = "btnActualizar";
             btnActualizar.Size = new Size(93, 25);

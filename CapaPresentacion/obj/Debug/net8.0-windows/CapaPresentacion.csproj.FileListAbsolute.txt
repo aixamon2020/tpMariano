@@ -90,3 +90,4 @@ C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaPresentacion\obj\Debug\net
 C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.pdb
 C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.genruntimeconfig.cache
 C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\ref\CapaPresentacion.dll
+C:\Users\Aixam\Source\Repos\aixamon2020\tpMariano\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Login.resources

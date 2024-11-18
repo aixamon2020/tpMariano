@@ -138,7 +138,7 @@ namespace CapaDeAccesoDatos
                     using (var command = new NpgsqlCommand())
                     {
                         command.Connection = conn;
-                        command.CommandText = "select * from users where nombre_usuario=@user and contraseña=@pass";
+                        command.CommandText = "select * from users where user_name=@user and pass=@pass";
                         command.Parameters.AddWithValue("@user", user_name);
                         command.Parameters.AddWithValue("@pass", pass);
                         command.CommandType = CommandType.Text;

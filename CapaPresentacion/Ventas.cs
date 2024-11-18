@@ -91,7 +91,7 @@ namespace CapaPresentacion
             try
             {
                 string cliente = txtCliente.Text;
-
+                DateTime fecha = DateTime.Now;
 
                 foreach(DataGridViewRow row in dgvVentas.Rows)
                 {
@@ -104,7 +104,7 @@ namespace CapaPresentacion
                         detalle.Add(new Detalle_Venta { id_producto=idproducto, cantidad=cantidad, Total_linea=Total_linea});
                     }
                 }
-                ventasCN.RealizarVenta( cliente, total, detalle);
+                ventasCN.RealizarVenta(fecha, cliente, total, detalle);
 
                 MessageBox.Show("venta realizada con exito");
 

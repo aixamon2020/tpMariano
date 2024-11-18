@@ -51,36 +51,45 @@
             // 
             // dgvVentas
             // 
+            dgvVentas.AllowUserToAddRows = false;
+            dgvVentas.BackgroundColor = Color.Beige;
             dgvVentas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvVentas.GridColor = Color.Beige;
             dgvVentas.Location = new Point(12, 66);
             dgvVentas.Name = "dgvVentas";
+            dgvVentas.RowHeadersVisible = false;
             dgvVentas.Size = new Size(469, 372);
             dgvVentas.TabIndex = 0;
             // 
             // btnVenta
             // 
+            btnVenta.BackColor = Color.LemonChiffon;
+            btnVenta.FlatAppearance.BorderSize = 0;
+            btnVenta.FlatStyle = FlatStyle.Flat;
             btnVenta.Location = new Point(487, 386);
             btnVenta.Name = "btnVenta";
             btnVenta.Size = new Size(301, 52);
             btnVenta.TabIndex = 1;
             btnVenta.Text = "Realizar venta";
-            btnVenta.UseVisualStyleBackColor = true;
+            btnVenta.UseVisualStyleBackColor = false;
             btnVenta.Click += btnVenta_Click;
             // 
             // btnAñadir
             // 
+            btnAñadir.BackColor = Color.LemonChiffon;
+            btnAñadir.FlatAppearance.BorderSize = 0;
+            btnAñadir.FlatStyle = FlatStyle.Flat;
             btnAñadir.Location = new Point(487, 348);
             btnAñadir.Name = "btnAñadir";
             btnAñadir.Size = new Size(301, 32);
             btnAñadir.TabIndex = 2;
             btnAñadir.Text = "Añadir";
-            btnAñadir.UseVisualStyleBackColor = true;
+            btnAñadir.UseVisualStyleBackColor = false;
             btnAñadir.Click += btnAñadir_Click;
             // 
             // cmbProductos
             // 
-            cmbProductos.BackColor = Color.Olive;
+            cmbProductos.BackColor = Color.LightGoldenrodYellow;
             cmbProductos.FormattingEnabled = true;
             cmbProductos.Location = new Point(12, 12);
             cmbProductos.Name = "cmbProductos";
@@ -153,6 +162,7 @@
             // 
             // txtCantidad
             // 
+            txtCantidad.BackColor = Color.LightGoldenrodYellow;
             txtCantidad.Location = new Point(604, 221);
             txtCantidad.Name = "txtCantidad";
             txtCantidad.Size = new Size(100, 23);
@@ -196,6 +206,7 @@
             // 
             // txtCliente
             // 
+            txtCliente.BackColor = Color.LightGoldenrodYellow;
             txtCliente.Location = new Point(604, 22);
             txtCliente.Name = "txtCliente";
             txtCliente.Size = new Size(100, 23);

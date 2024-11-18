@@ -11,7 +11,7 @@ namespace CapaNegocios
     public class VentasCN
     {
         public VentasDAL ventasDAL = new VentasDAL();
-        public void RealizarVenta( string cliente, decimal monto, List<Detalle_Venta> detalles)
+        public void RealizarVenta(DateTime fecha, string cliente, decimal monto, List<Detalle_Venta> detalles)
         {
             if (detalles == null || detalles.Count == 0)
             {
@@ -28,7 +28,7 @@ namespace CapaNegocios
             }
             try
             {
-                ventasDAL.RealizarVenta(cliente, monto, detalles);
+                ventasDAL.RealizarVenta(fecha, cliente, monto, detalles);
             }
             catch (Exception ex)
             {

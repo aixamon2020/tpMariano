@@ -35,12 +35,16 @@
             btnVentas = new Button();
             btnProductos = new Button();
             panelPrincipal = new Panel();
+            pictureBox1 = new PictureBox();
+            panelSuperior.SuspendLayout();
             panelBotones.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelSuperior
             // 
-            panelSuperior.BackColor = Color.OliveDrab;
+            panelSuperior.BackColor = Color.Olive;
+            panelSuperior.Controls.Add(pictureBox1);
             panelSuperior.Dock = DockStyle.Top;
             panelSuperior.Location = new Point(0, 0);
             panelSuperior.Name = "panelSuperior";
@@ -49,7 +53,7 @@
             // 
             // panelBotones
             // 
-            panelBotones.BackColor = Color.LightYellow;
+            panelBotones.BackColor = Color.DarkKhaki;
             panelBotones.Controls.Add(btnSalir);
             panelBotones.Controls.Add(btnUsuarios);
             panelBotones.Controls.Add(btnVentas);
@@ -62,12 +66,13 @@
             // 
             // btnSalir
             // 
-            btnSalir.BackColor = Color.Red;
+            btnSalir.BackColor = Color.LemonChiffon;
             btnSalir.FlatAppearance.BorderSize = 0;
-            btnSalir.FlatStyle = FlatStyle.Flat;
-            btnSalir.Location = new Point(0, 450);
+            btnSalir.FlatStyle = FlatStyle.Popup;
+            btnSalir.ForeColor = SystemColors.ActiveCaptionText;
+            btnSalir.Location = new Point(0, 417);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(182, 23);
+            btnSalir.Size = new Size(182, 35);
             btnSalir.TabIndex = 3;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
@@ -77,9 +82,9 @@
             // 
             btnUsuarios.FlatAppearance.BorderSize = 0;
             btnUsuarios.FlatStyle = FlatStyle.Flat;
-            btnUsuarios.Location = new Point(3, 308);
+            btnUsuarios.Location = new Point(0, 247);
             btnUsuarios.Name = "btnUsuarios";
-            btnUsuarios.Size = new Size(179, 23);
+            btnUsuarios.Size = new Size(179, 49);
             btnUsuarios.TabIndex = 2;
             btnUsuarios.Text = "Usuarios";
             btnUsuarios.UseVisualStyleBackColor = true;
@@ -89,9 +94,9 @@
             // 
             btnVentas.FlatAppearance.BorderSize = 0;
             btnVentas.FlatStyle = FlatStyle.Flat;
-            btnVentas.Location = new Point(0, 220);
+            btnVentas.Location = new Point(0, 147);
             btnVentas.Name = "btnVentas";
-            btnVentas.Size = new Size(182, 23);
+            btnVentas.Size = new Size(182, 46);
             btnVentas.TabIndex = 1;
             btnVentas.Text = "Ventas";
             btnVentas.UseVisualStyleBackColor = true;
@@ -101,7 +106,7 @@
             // 
             btnProductos.FlatAppearance.BorderSize = 0;
             btnProductos.FlatStyle = FlatStyle.Flat;
-            btnProductos.Location = new Point(0, 113);
+            btnProductos.Location = new Point(0, 55);
             btnProductos.Name = "btnProductos";
             btnProductos.Size = new Size(182, 45);
             btnProductos.TabIndex = 0;
@@ -111,12 +116,23 @@
             // 
             // panelPrincipal
             // 
-            panelPrincipal.BackColor = Color.Ivory;
+            panelPrincipal.BackColor = Color.Beige;
             panelPrincipal.Dock = DockStyle.Fill;
             panelPrincipal.Location = new Point(182, 36);
             panelPrincipal.Name = "panelPrincipal";
             panelPrincipal.Size = new Size(802, 525);
             panelPrincipal.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.close;
+            pictureBox1.Location = new Point(943, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(38, 30);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += btnSalir_Click;
             // 
             // Principal
             // 
@@ -126,10 +142,13 @@
             Controls.Add(panelPrincipal);
             Controls.Add(panelBotones);
             Controls.Add(panelSuperior);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Principal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Principal";
+            panelSuperior.ResumeLayout(false);
             panelBotones.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -142,5 +161,6 @@
         private Button btnVentas;
         private Button btnSalir;
         private Button btnUsuarios;
+        private PictureBox pictureBox1;
     }
 }

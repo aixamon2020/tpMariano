@@ -42,9 +42,12 @@
             // 
             // dgvUsuarios
             // 
+            dgvUsuarios.AllowUserToAddRows = false;
+            dgvUsuarios.BackgroundColor = Color.Beige;
             dgvUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvUsuarios.Location = new Point(12, 12);
             dgvUsuarios.Name = "dgvUsuarios";
+            dgvUsuarios.RowHeadersVisible = false;
             dgvUsuarios.Size = new Size(444, 426);
             dgvUsuarios.TabIndex = 0;
             dgvUsuarios.CellClick += dgvUsuarios_CellClick;
@@ -78,6 +81,7 @@
             // 
             // txtPass
             // 
+            txtPass.BackColor = Color.LightGoldenrodYellow;
             txtPass.Location = new Point(614, 157);
             txtPass.Name = "txtPass";
             txtPass.Size = new Size(100, 23);
@@ -86,6 +90,7 @@
             // 
             // txtDisplayname
             // 
+            txtDisplayname.BackColor = Color.LightGoldenrodYellow;
             txtDisplayname.Location = new Point(614, 46);
             txtDisplayname.Name = "txtDisplayname";
             txtDisplayname.Size = new Size(100, 23);
@@ -93,6 +98,7 @@
             // 
             // txtUsername
             // 
+            txtUsername.BackColor = Color.LightGoldenrodYellow;
             txtUsername.Location = new Point(614, 100);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(100, 23);
@@ -100,29 +106,34 @@
             // 
             // btnAñadir
             // 
-            btnAñadir.Location = new Point(472, 333);
+            btnAñadir.BackColor = Color.LemonChiffon;
+            btnAñadir.FlatStyle = FlatStyle.Flat;
+            btnAñadir.Location = new Point(505, 324);
             btnAñadir.Name = "btnAñadir";
-            btnAñadir.Size = new Size(75, 23);
+            btnAñadir.Size = new Size(75, 32);
             btnAñadir.TabIndex = 10;
             btnAñadir.Text = "Añadir";
-            btnAñadir.UseVisualStyleBackColor = true;
+            btnAñadir.UseVisualStyleBackColor = false;
             btnAñadir.Click += btnAñadir_Click;
             // 
             // btnActualizar
             // 
+            btnActualizar.BackColor = Color.LemonChiffon;
             btnActualizar.Enabled = false;
-            btnActualizar.Location = new Point(639, 333);
+            btnActualizar.FlatStyle = FlatStyle.Flat;
+            btnActualizar.Location = new Point(639, 324);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.Size = new Size(75, 32);
             btnActualizar.TabIndex = 11;
             btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.UseVisualStyleBackColor = false;
             btnActualizar.Click += btnActualizar_Click;
             // 
             // Usuarios
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Beige;
             ClientSize = new Size(800, 450);
             Controls.Add(btnActualizar);
             Controls.Add(btnAñadir);
